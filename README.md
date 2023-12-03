@@ -14,22 +14,22 @@ DoubtSession (Real-Time Doubt Solving Platform )
      
 3.  Doubt Routes
    
-        Endpoint: /doubt/history
+        ApiEndpoint:: /doubt/history
         Method: GET
         
-        Endpoint: /doubt/addDoubt
+        ApiEndpoint:: /doubt/addDoubt
         Method: POST
 
 5.  Tutor Routes
    
-        Endpoint: /tutor/gettutor
+        ApiEndpoint:: /tutor/gettutor
         Method: GET
        
-        Endpoint: /tutor/addData
+        ApiEndpoint:: /tutor/addData
         Method: POST
   
-        Endpoint: /tutor/updateData
+        ApiEndpoint:: /tutor/updateData
         Method: PATCH
 
-        Endpoint: /tutor/update-ping
+        ApiEndpoint:: /tutor/update-ping
         Method: POST

@@ -3,6 +3,7 @@ DoubtSession (Real-Time Doubt Solving Platform )
 
 
  1. User Routes
+    
                  Register
         Endpoint: /register
         Method: POST
@@ -16,6 +17,7 @@ DoubtSession (Real-Time Doubt Solving Platform )
         Method: GET
 
 2.  Doubt Routes
+   
                   Get Doubt History
         Endpoint: /doubt/history
         Method: GET
@@ -25,6 +27,7 @@ DoubtSession (Real-Time Doubt Solving Platform )
         Method: POST
 
 3.  Tutor Routes
+   
                    Get Tutor Profile
         Endpoint: /tutor/gettutor
         Method: GET

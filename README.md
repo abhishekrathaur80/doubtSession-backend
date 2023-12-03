@@ -1,18 +1,16 @@
 # doubtSession-backend
 DoubtSession (Real-Time Doubt Solving Platform )
 
-
  1. User Routes
-         
-        Endpoint: /register
-        Method: POST
+        ApiEndpoint:/register
+        method:POST
     
-        Endpoint: /login
-        Method: POST
-     
-        Endpoint: /logout
-        Method: GET
+        ApiEndpoint:/login
+        method:POST
 
+        ApiEndpoint:/logout
+        method:GET
+     
 3.  Doubt Routes
    
         Endpoint: /doubt/history

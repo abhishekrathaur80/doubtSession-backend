@@ -21,10 +21,10 @@ const io = socketIo(server);
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/auth", userRouter);
-app.use("/api/doubts", doubtRouter);
-app.use("/api/tutor", tutorRouter);
-app.use("/api/student", studentRouter);
+app.use("/auth", userRouter);
+app.use("/doubts", doubtRouter);
+app.use("/tutor", tutorRouter);
+app.use("/student", studentRouter);
 
 app.get("/", (req, res) => {
   const options = {

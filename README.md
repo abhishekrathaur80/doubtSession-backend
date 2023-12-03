@@ -4,15 +4,15 @@ DoubtSession (Real-Time Doubt Solving Platform )
 
  1. User Routes
     
-                 Register
+                i. Register
         Endpoint: /register
         Method: POST
        
-                  Login
+                 ii. Login
         Endpoint: /login
         Method: POST
 
-                  Logout
+                iii.  Logout
         Endpoint: /logout
         Method: GET
 

@@ -2,6 +2,7 @@
 DoubtSession (Real-Time Doubt Solving Platform )
 
  1. User Routes
+    
         ApiEndpoint:/register
         method:POST
     
